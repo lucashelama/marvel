@@ -1,3 +1,44 @@
 header {
     text-align: center;
 }
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+}
+
+.input-box {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    /* height: max-content; */
+    background-color: #FDECEC;
+    border-radius: 30px;
+    gap: 5px;
+}
+    
+
+.input-box > input[type="text"] {
+    width: 90%;
+    height: 45px;
+    /* padding-left: 60px; */
+    border: none;
+    background-color: #FDECEC;
+    border-radius: 30px;
+}
+
+.input-box > input[type="text"]::placeholder {
+    color: #FA7C7C;
+}
+
+.input-box > img {
+    position: static;
+    padding: 15px;
+
+}
+
+.input-box > img:hover {
+    cursor: pointer;
+
+}
