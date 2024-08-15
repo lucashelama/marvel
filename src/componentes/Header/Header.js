@@ -7,7 +7,7 @@ function Header() {
         <header>
             <img src={logo} alt=""></img>
             <h1>Explore o Universo</h1>
-            <p>Mergulhe no dominio deslumbrante de todos os personagens classicos que você ama</p>
+            <p>Mergulhe no dominio deslumbrante de todos os personagens classicos que você adora</p>
             <div>
                 <img src={lupa} alt="icone"></img>
                 <input type="text" placeholder="procure por heróis" ></input>
