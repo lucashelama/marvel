@@ -36,3 +36,16 @@
     ]
   }
 }
+{
+  "name": "nome-do-projeto",
+  "version": "1.0.0",
+  "homepage": "https://seuusuario.github.io/nomedorepositorio",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    ...
+  },
+  ...
+}
